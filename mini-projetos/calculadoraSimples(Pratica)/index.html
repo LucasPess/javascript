@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Calculadora Simples</title>
 </head>
 <body>
     <header>
         <h1>
-            Calculadora Simples
+           <img src="" alt=""> Calculadora Simples
         </h1>
     </header>
      <main>
-        <input type="number" name="n01" id="n1">
-        <input type="number" name="n02" id="n2">
-        <input type="button" value="+">
-        <input type="button" value="-">
-        <input type="button" value="X">
-        <input type="button" value="/">
-        <span></span>
+        
+        <h2>
+            Adicione os valores
+        </h2>
+
+        <p>
+            Adicione um numero:
+        </p>
+
+        <input type="none" id="n1" >
+
+        <p>
+            Adicione um numero:
+        </p>
+
+        <input type="none" id="n2" ></br>
+
+        <input onclick="adicao()" type="button" value="+" class="button">
+
+        <input onclick="subtracao()" type="button" value="-" class="button">
+
+        <input onclick="multiplicacao()" type="button" value="X" class="button">
+
+        <input onclick="divisao()" type="button" value="/" class="button">
+
+        <span>
+
+        </span>
+
      </main>
      <footer>
         <P>
