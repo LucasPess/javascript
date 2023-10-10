@@ -1,6 +1,8 @@
 let cor = document.getElementById('titulo')
 let cores = ['red', 'blue', 'yellow','green'];
 
+document.body.style.backgroundColor =cores[0];
+
 function mudarCor(){
     if(document.body.style.backgroundColor == cores[0]){
         document.body.style.backgroundColor = cores[1];
