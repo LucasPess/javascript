@@ -18,7 +18,7 @@ btnSortear.addEventListener('click', function(){
         numeroSorteado = getRandomInt(1,6);
         console.log(numeroSorteado);
 
-        imgDado.setAttribute('src', '../medias/dado/'+numeroSorteado+'.png');
+        imgDado.setAttribute('src', './medias/dado/'+numeroSorteado+'.png');
 
         sorteado.textContent = numeroSorteado;
 
